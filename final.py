@@ -1,6 +1,7 @@
 # Core Pkgs
 import streamlit as st
-st.set_page_config(page_title="Tool for Lung Classification from Chest X-Ray", page_icon="covid19.jpeg", layout='centered', initial_sidebar_state='auto')
+st.set_page_config(page_title="Tool for Lung Classification from Chest X-Ray", page_icon="covid19.jpeg", 
+                   layout='centered', initial_sidebar_state='auto')
 
 import os
 import time
@@ -45,7 +46,7 @@ def main():
     """Simple Tool for Lung Classification from Chest X-Ray"""
     html_templ = """
     <div style="background-color:dark;padding:10px;">
-    <h1 style="color:white">Covid-19 Classification Tool</h1>
+    <h1 style="color:white">Lung Classification and Segmentation Tool</h1>
     </div>
     """
 
