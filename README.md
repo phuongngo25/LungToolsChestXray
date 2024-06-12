@@ -38,11 +38,11 @@ To run the Streamlit app, follow these steps:
    pip install -r requirements.txt
 
    streamlit run final.py
-2. Upload a chest X-ray image and we have 3 ways to process the image
+2. Upload a chest X-ray image and we have 3 ways to process the image \n
    2.1. Image Enhancement 
-      - In this part we can see the image in original format, and tool for control the constract and brightness of images. 
+      - In this part we can see the image in original format, and tool for control the constract and brightness of images. \n
    2.2. Diagnosis
       - In this part we Diagnose the Lung problems with the X-Ray image
-      - It can predict the image for 3 classes : Covid, Viral Pneumonia, and Normal Lung 
+      - It can predict the image for 3 classes : Covid, Viral Pneumonia, and Normal Lung \n
    2.3. Lung Segmentation
       - In this part we Segmentation Lung in image  
